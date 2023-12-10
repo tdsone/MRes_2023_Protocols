@@ -17,7 +17,7 @@ The A1 Master Mix must also be prepared taking into account that for a 10ul PCR 
 Instead of adding 0.25ul of the gDNA, 1ul (of a more dilute sample) will be added, so 0.75ul less water will be added in preparing the overall MM. 
 
 #### Overview of setting up the labware in the OT2 block layout
-![Here is how you would set up the blocks](Team_1/asset/LabwareOverview.png)
+![Here is how you would set up the blocks](/asset/LabwareOverview.png)
 ### Part 1: Larvae sample preparation
 Brief description of what the code does:
 - Adds 20.5ul of lysis buffer to each well in the PCR rack already in the thermocycler
