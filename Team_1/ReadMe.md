@@ -1,4 +1,4 @@
-# Automating the Sample Preparation and Genotyping of Mosquito Larvae
+# Automating the Sample Preparation and PCR-Genotyping of Mosquito Larvae
 
 ### Overview and pre-automation preparation
 We have attempted to automate two key parts of a laborious mosquito genotyping protocol; larvae sample preparation, and multiplexed PCR.
@@ -16,8 +16,11 @@ Note that depending on the genotyping-specific PCR being carried out, the master
 The A1 Master Mix must also be prepared taking into account that for a 10ul PCR reaction volume. 
 Instead of adding 0.25ul of the gDNA, 1ul (of a more dilute sample) will be added, so 0.75ul less water will be added in preparing the overall MM. 
 
+### Overview of setting up the labware in the OT2 block layout
+
 ### Part 1: Larvae sample preparation
+Brief description of what the code does:
+- Adds 20.5ul of lysis buffer to each well in the PCR rack already in the thermocycler
 
-
-### Part 2: Multiplexed PCR for larve genotyping
+### Part 2: Multiplexed PCR for larvae genotyping
 
