@@ -10,8 +10,8 @@ In this ReadMe: deck set up, protocol overview, problems overcome, problems rema
 - Left pipette: P300 Multi Gen 2
 - Slot 1: USA Scientific 12 well reservoir (22 mL) containing reagents:
   - A1: 6.5 mL 2 M NaOH
-  - A2: 4 mL Ni-NTA equilibration buffer (50 mM NaPO4, 300 mM NaCl, 20 mM imidazole, pH 7.4)
-  - A3: 200 µL Pierce Ni-NTA agarose magnetic bead slurry
+  - A2: 20 mL Ni-NTA equilibration buffer (50 mM NaPO4, 300 mM NaCl, 20 mM imidazole, pH 7.4)
+  - A3: 1 mL Pierce Ni-NTA agarose magnetic bead slurry
   - A4: 20 mL Ni-NTA wash buffer (50 mM NaPO4, 300 NaCl, 40 mM imidazole, pH 7.4)
   - A5: 3.5 mL Ni-NTA elution buffer (50 mM NaPO4, 300 mM NaCl, 300 mM imidazole, pH 7.4)
   - A6: 8 mL ELISA coating solution (50 mM Na2CO3)
@@ -26,7 +26,7 @@ In this ReadMe: deck set up, protocol overview, problems overcome, problems rema
 - Slot 5: P300 pipette tips
 - Slot 6: P300 pipette tips
 - Slot 7: P300 pipette tips
-- Slot 8: P300 pipette tips
+- Slot 8: N/A
 - Slot 9: P300 pipette tips
 - Slot 10: P300 pipette tips
 - Slot 11: USA Scientific 12 well reservoir (22 mL) for waste liquids
@@ -40,7 +40,7 @@ Raw sample preparation:
   3. Extract 600 µL neutralised supernatant for purification (leaves 280 µL in slot 2 cols 3&4 for reserve)
 
 Ni-NTA magnetic bead purification:
-  1. Equilibrate 200 µL of Ni-NTA magnetic beads
+  1. Equilibrate 1 mL of Ni-NTA magnetic beads
   2. Add 30 µL beads to 300 µL supernatant (two replicates per sample, slot 4 sample 1-8 cols 2&3, sample 9-16 cols 4&5)
   3. Wash twice with 300 µL wash buffer
   4. Add 100 µL elution buffer, combine replicates (total 200 µL per sample), elute (total 200 µL slot 2 sample 1-8 col 11, sample 9-16 col 12)
