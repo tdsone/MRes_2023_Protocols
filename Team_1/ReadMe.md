@@ -20,10 +20,18 @@ Instead of adding 0.25ul of the gDNA, 1ul (of a more dilute sample) will be adde
 ![Here is how you would set up the blocks](asset/LabwareOverview.png)
 ### Part 1: Larvae sample preparation
 Brief description of what the code does:
-- Adds 20.5ul of lysis buffer to each well in the PCR rack already in the thermocycler
-- 
+- 20.5ul lysis buffer (from reservoir A3) is added to each well in the PCR 96-well rack (already in the thermocycler). Note that the tips aren't changed between adding the lysis buffer. As a p20 is being used, 20.5ul had to be divided, adding 10.25ul lysis buffer twice.
+- The control well (H12) contains only water and no lysis buffer. This has been coded by using a different reservoir (A4) where the last well contains only water and the other wells contain lysis buffer.
+- Thermocycler lid will automatically close and the heating for the sample prep (lysis) begins.
 
 ### Part 2: Multiplexed PCR for larvae genotyping
+**Includes combined transfer step (transition from part 1 to part 2)**
+- When the thermocycler is finished, the lid will open automatically and there will be a 'hold step', allowing you to take the post-lysis plate out, switch it with the plate in Block 1, and place the Block 1 plate in the thermocycler. 
+- A p300 is used to add 61.5ul of water to each well (post-lysis) to dilute the samples 1 in 4, allowing for 1ul of the gDNA to be added in the PCR step.
+
+**Setting up the PCR**
+- The p20 is used to add 9ul of the overall PCR Master Mix (in reservoir A1) to each well of the newly switched in PCR rack in the thermocycler. Same time is used every time here, as jus the Master Mix is being added.
+- Then, changing the tip every time, the p20 is used to transfer 1ul of each sample of gDNA (from the Block 1 PCR rack), to the wells of the PCR rack in the thermocycler. Note that the aspiration of the gDNA sample has been programmed to have a reduced flow rate (1ul/s) to minimise the chances of aspirating particulates of the lysed larvae. 
 
 ####
 - pipettes refilled
