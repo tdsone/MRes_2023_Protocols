@@ -42,6 +42,9 @@ Throughout the protocol, there are designated pauses for essential manual interv
 - Labware: 96-well plates, tip racks, thermal cycler module, temperature module, aluminium block
 - Modules: Opentrons Thermocycler Module V2, Temperature Module Gen2
 
+The labware should be set up like this:
+![1](pics/labware.png)
+
 ## Instructions for Use
 
 ### Preparation
@@ -51,7 +54,7 @@ Ensure all master mixes are prepared and placed in the specified wells of the al
 - Subarray plasmids 1 to 4 master mixes – C1 – C4
 - CRISPRai vector master mix – D6
 
-  Below is an image showing the organisation of the source plate that is expected by opentron at the beginning of the protocol and after every pause step.
+Below is an image showing the organisation of the source plate that is expected by opentron at the beginning of the protocol and after every pause step.
 
 
 ![1](pics/1.png)
