@@ -50,6 +50,7 @@ Ensure all master mixes are prepared and placed in the specified wells of the al
 - Repression (dCas9-Mxi1) gRNA fragment PCR master mix – B6
 - Subarray plasmids 1 to 4 master mixes – C1 – C4
 - CRISPRai vector master mix – D6
+
   Below is an image showing the organisation of the source plate that is expected by opentron at the beginning of the protocol and after every pause step.
 
 
