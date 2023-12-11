@@ -30,13 +30,18 @@ Brief description of what the code does:
 - When the thermocycler is finished, the lid will open automatically and there will be a 'hold step', allowing you to take the post-lysis plate out, switch it with the plate in Block 1, and place the Block 1 plate in the thermocycler. 
 - A p300 is used to add 61.5ul of water to each well (post-lysis) to dilute the samples 1 in 4, allowing for 1ul of the gDNA to be added in the PCR step.
 
-
-
 **Setting up the PCR**
-- The p20 is used to add 9ul of the overall PCR Master Mix (in reservoir A1) to each well of the newly switched in PCR rack in the thermocycler. Same time is used every time here, as jus the Master Mix is being added.
-- Then, changing the tip every time, the p20 is used to transfer 1ul of each sample of gDNA (from the Block 1 PCR rack), to the wells of the PCR rack in the thermocycler. Note that the aspiration of the gDNA sample has been programmed to have a reduced flow rate (1ul/s) to minimise the chances of aspirating particulates of the lysed larvae.
+- The p20 is used to add 9ul of the overall PCR Master Mix (in reservoir A1) to each well of the newly switched PCR rack in the thermocycler. The same tip is used every time here, as just the Master Mix is being added.
+- Then, changing the tip every time, the p20 is used to transfer 1ul of each sample of gDNA (from the Block 1 PCR rack), to the wells of the PCR rack in the thermocycler.
+- Thermocycler lid will automatically close and the heating will start.
+    - Denaturation temperature: 98 degrees C, 300s
+    - PCR loop:
+        - 98 degrees C, 5s
+        - Annealing temperature (user input required), 5s
+        - 72 degrees C, Extension time (user input required)
+    - Final step: 72 degrees C, 60s
 
-
+The thermocycler is programmed to run 40 cycles. Once the program finishes, the thermocycler will be held at 10 degrees C. It will say "Resume to open thermocycler lid".
 
 ####
 - pipettes refilled
