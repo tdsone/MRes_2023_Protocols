@@ -5,6 +5,7 @@ We have attempted to automate two key parts of a laborious mosquito genotyping p
 Note that before running this code, the preparation of a 96-well plate already containing a single larva in each well is necessary.
   This includes the manual exclusion of larvae from the 'Dil' wells (B3, D6, and F9), by not placing larvae here.
   Unfortunately, the individual placement of live larvae into each well was not possible to automate in the timeframe of this project.
+  The PCR of the lysed mosquito larvae uses three primers; two located in the wildtype and one located within the desired insert. These primers are included in the pre-made master mix made prior to the automation steps. The PCR can be considered multiplex due to it testing whether the insert is present in both, one, or neither allele. The presence of the insert will be indicative from larger bands present on agarose gel post automated PCR cycle.
 
 _The reservoirs must be carefully prepared as follows:_
 - A1: overall Master Mix for the PCR step
@@ -29,9 +30,13 @@ Brief description of what the code does:
 - When the thermocycler is finished, the lid will open automatically and there will be a 'hold step', allowing you to take the post-lysis plate out, switch it with the plate in Block 1, and place the Block 1 plate in the thermocycler. 
 - A p300 is used to add 61.5ul of water to each well (post-lysis) to dilute the samples 1 in 4, allowing for 1ul of the gDNA to be added in the PCR step.
 
+
+
 **Setting up the PCR**
 - The p20 is used to add 9ul of the overall PCR Master Mix (in reservoir A1) to each well of the newly switched in PCR rack in the thermocycler. Same time is used every time here, as jus the Master Mix is being added.
-- Then, changing the tip every time, the p20 is used to transfer 1ul of each sample of gDNA (from the Block 1 PCR rack), to the wells of the PCR rack in the thermocycler. Note that the aspiration of the gDNA sample has been programmed to have a reduced flow rate (1ul/s) to minimise the chances of aspirating particulates of the lysed larvae. 
+- Then, changing the tip every time, the p20 is used to transfer 1ul of each sample of gDNA (from the Block 1 PCR rack), to the wells of the PCR rack in the thermocycler. Note that the aspiration of the gDNA sample has been programmed to have a reduced flow rate (1ul/s) to minimise the chances of aspirating particulates of the lysed larvae.
+
+
 
 ####
 - pipettes refilled
