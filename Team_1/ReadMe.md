@@ -41,9 +41,10 @@ Brief description of what the code does:
         - 72 degrees C, Extension time (user input required)
     - Final step: 72 degrees C, 60s
 
-The thermocycler is programmed to run 40 cycles. Once the program finishes, the thermocycler will be held at 10 degrees C. It will say "Resume to open thermocycler lid".
+The thermocycler is programmed to run 40 cycles. Once the program finishes, the thermocycler will be held at 10 degrees C. The program will say "Resume to open thermocycler lid".
 
-####
-- pipettes refilled
-- gDNA in block 1
-- put 
+### If you want to run another PCR using the same gDNA samples
+You need to ensure:
+- Pipette tip boxes are refilled
+- Block 1 contains the lysed gDNA sample plate
+- Reservoir is carefully washed out (if you are doing a PCR with another set of primers) and refilled with respective Master Mixes.
