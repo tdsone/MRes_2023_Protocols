@@ -21,6 +21,11 @@ Instead of adding 0.25ul of the gDNA, 1ul (of a more dilute sample) will be adde
 ### Part 1: Larvae sample preparation
 Brief description of what the code does:
 - Adds 20.5ul of lysis buffer to each well in the PCR rack already in the thermocycler
+- 
 
 ### Part 2: Multiplexed PCR for larvae genotyping
 
+####
+- pipettes refilled
+- gDNA in block 1
+- put 
