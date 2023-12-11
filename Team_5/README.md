@@ -43,7 +43,8 @@ Throughout the protocol, there are designated pauses for essential manual interv
 - Modules: Opentrons Thermocycler Module V2, Temperature Module Gen2
 
 The labware should be set up like this:
-![1](pics/labware.png)
+
+![1](pics/Labware.jpeg)
 
 ## Instructions for Use
 
